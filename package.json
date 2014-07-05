@@ -1,6 +1,6 @@
 {
 	"name": "is-nan",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "ES6-compliant shim for Number.isNaN - the global isNaN returns false positives.",
 	"author": "Jordan Harband",
 	"license": "MIT",
