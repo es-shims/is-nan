@@ -6,9 +6,10 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"test": "node test.js && npm run coverage-quiet",
+		"test": "npm run lint && node test.js && npm run coverage-quiet",
 		"coverage": "covert test.js",
-		"coverage-quiet": "covert test.js --quiet"
+		"coverage-quiet": "covert test.js --quiet",
+		"lint": "jscs *.js"
 	},
 	"repository": {
 		"type": "git",
@@ -28,7 +29,9 @@
 		"shim",
 		"polyfill"
 	],
-	"dependencies": {},
+	"dependencies": {
+		"jscs": "~1.5.8"
+	},
 	"devDependencies": {
 		"tape": "~2.13.1",
 		"covert": "~0.4.0"
