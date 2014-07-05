@@ -30,11 +30,11 @@
 		"polyfill"
 	],
 	"dependencies": {
-		"jscs": "~1.5.8"
 	},
 	"devDependencies": {
 		"tape": "~2.13.1",
-		"covert": "~0.4.0"
+		"covert": "~0.4.0",
+		"jscs": "~1.5.8"
 	},
 	"testling": {
 		"files": "test.js",
