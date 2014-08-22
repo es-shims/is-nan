@@ -35,11 +35,11 @@ Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-nan
 [2]: http://vb.teelaun.ch/ljharb/is-nan.svg
-[3]: https://travis-ci.org/ljharb/is-nan.png
+[3]: https://travis-ci.org/ljharb/is-nan.svg
 [4]: https://travis-ci.org/ljharb/is-nan
-[5]: https://david-dm.org/ljharb/is-nan.png
+[5]: https://david-dm.org/ljharb/is-nan.svg
 [6]: https://david-dm.org/ljharb/is-nan
-[7]: https://david-dm.org/ljharb/is-nan/dev-status.png
+[7]: https://david-dm.org/ljharb/is-nan/dev-status.svg
 [8]: https://david-dm.org/ljharb/is-nan#info=devDependencies
 [9]: https://ci.testling.com/ljharb/is-nan.png
 [10]: https://ci.testling.com/ljharb/is-nan
