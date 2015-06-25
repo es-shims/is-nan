@@ -1,6 +1,6 @@
 'use strict';
 
-/* https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.isnan */
+/* http://www.ecma-international.org/ecma-262/6.0/#sec-number.isnan */
 
 module.exports = function isNaN(value) {
 	return value !== value;
