@@ -6,12 +6,14 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"test": "npm run lint && node test.js && npm run coverage-quiet",
-		"coverage": "covert test.js",
-		"coverage-quiet": "covert test.js --quiet",
+		"test": "npm run lint && npm run test:function && npm run test:shimmed",
+		"test:function": "node test/index.js",
+		"test:shimmed": "node test/shimmed.js",
+		"coverage": "covert test/*.js",
+		"coverage-quiet": "covert test/*.js --quiet",
 		"lint": "npm run jscs && npm run eslint",
-		"jscs": "jscs *.js",
-		"eslint": "eslint *.js"
+		"jscs": "jscs *.js test/*.js",
+		"eslint": "eslint *.js test/*.js"
 	},
 	"repository": {
 		"type": "git",
@@ -38,7 +40,8 @@
 		"tape": "^4.0.0",
 		"covert": "^1.1.0",
 		"jscs": "^1.13.1",
-		"eslint": "^0.23.0"
+		"eslint": "^0.23.0",
+		"es5-shim": "^4.1.7"
 	},
 	"testling": {
 		"files": "test.js",
