@@ -1,4 +1,7 @@
+'use strict';
+
 require('es5-shim');
+
 var numberIsNaN = require('../');
 numberIsNaN.shim();
 

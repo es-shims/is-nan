@@ -1,3 +1,5 @@
+'use strict';
+
 var numberIsNaN = require('../');
 var test = require('tape');
 
