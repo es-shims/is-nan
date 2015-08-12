@@ -38,7 +38,7 @@ assert.ok(Number.isNaN(NaN));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-nan
-[2]: http://vb.teelaun.ch/ljharb/is-nan.svg
+[2]: http://versionbadg.es/ljharb/is-nan.svg
 [3]: https://travis-ci.org/ljharb/is-nan.svg
 [4]: https://travis-ci.org/ljharb/is-nan
 [5]: https://david-dm.org/ljharb/is-nan.svg
