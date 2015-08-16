@@ -1,3 +1,7 @@
+1.2.1 / 2015-08-16
+=================
+  * [Docs] Update readme
+
 1.2.0 / 2015-08-16
 =================
   * [New] Implement the [es-shim API](es-shims/api) interface
