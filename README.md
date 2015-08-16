@@ -12,6 +12,8 @@
 
 ES6-compliant shim for Number.isNaN - the global isNaN returns false positives.
 
+This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](http://www.ecma-international.org/ecma-262/6.0/#sec-number.isnan).
+
 ## Example
 
 ```js
@@ -52,4 +54,3 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/is-nan.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=is-nan
-

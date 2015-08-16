@@ -33,7 +33,8 @@
 		"isNaN",
 		"ES6",
 		"shim",
-		"polyfill"
+		"polyfill",
+		"es-shim API"
 	],
 	"dependencies": {
 		"define-properties": "^1.1.1"
