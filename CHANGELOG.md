@@ -1,3 +1,11 @@
+1.2.0 / 2015-08-16
+=================
+  * [New] Implement the [es-shim API](es-shims/api) interface
+  * [Dev Deps] update `eslint`, `tape`, `es5-shim`, `@ljharb/eslint-config`
+  * [Tests] up to `io.js` `v3.0`
+  * [Docs] Switch from vb.teelaun.ch to versionbadg.es for the npm version badge SVG
+  * [Security] Add `npm run security`
+
 1.1.0 / 2015-06-24
 =================
   * Add a "shim" method
