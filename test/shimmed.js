@@ -10,6 +10,8 @@ var defineProperties = require('define-properties');
 var isEnumerable = Object.prototype.propertyIsEnumerable;
 var functionsHaveNames = function f() {}.name === 'f';
 
+var runTests = require('./tests');
+
 test('shimmed', function (t) {
 	t.equal(Number.isNaN.length, 1, 'Number.isNaN has a length of 1');
 	t.test('Function name', { skip: !functionsHaveNames }, function (st) {
@@ -22,7 +24,7 @@ test('shimmed', function (t) {
 		et.end();
 	});
 
-	require('./tests')(Number.isNaN, t);
+	runTests(Number.isNaN, t);
 
 	t.end();
 });
