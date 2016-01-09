@@ -37,7 +37,7 @@
 		"es-shim API"
 	],
 	"dependencies": {
-		"define-properties": "^1.1.1"
+		"define-properties": "^1.1.2"
 	},
 	"devDependencies": {
 		"tape": "^4.4.0",
