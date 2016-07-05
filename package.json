@@ -42,14 +42,14 @@
 		"define-properties": "^1.1.2"
 	},
 	"devDependencies": {
-		"tape": "^4.5.1",
+		"tape": "^4.6.0",
 		"covert": "^1.1.0",
-		"jscs": "^3.0.3",
-		"eslint": "^2.11.0",
-		"@ljharb/eslint-config": "^5.0.0",
-		"es5-shim": "^4.5.8",
+		"jscs": "^3.0.6",
+		"eslint": "^3.0.1",
+		"@ljharb/eslint-config": "^6.0.0",
+		"es5-shim": "^4.5.9",
 		"@es-shims/api": "^1.2.0",
-		"nsp": "^2.4.0"
+		"nsp": "^2.5.0"
 	},
 	"testling": {
 		"files": "test.js",
