@@ -6,8 +6,8 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"pretest": "npm run --silent lint",
-		"test": "es-shim-api && npm run --silent tests-only",
+		"pretest": "npm run --silent lint && es-shim-api",
+		"test": "npm run --silent tests-only",
 		"tests-only": "npm run --silent test:function && npm run --silent test:shimmed",
 		"test:function": "node test/index.js",
 		"test:shimmed": "node test/shimmed.js",
