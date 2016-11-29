@@ -21,7 +21,7 @@ module.exports = function (numberIsNaN, t) {
 
 		st.test('valueOf', function (vt) {
 			var obj = {
-				valueOf: function valueOf() {
+				valueOf: function () {
 					return NaN;
 				}
 			};
