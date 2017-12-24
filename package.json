@@ -46,7 +46,7 @@
 		"@ljharb/eslint-config": "^12.2.1",
 		"covert": "^1.1.0",
 		"es5-shim": "^4.5.10",
-		"eslint": "^4.13.1",
+		"eslint": "^4.14.0",
 		"jscs": "^3.0.7",
 		"nsp": "^3.1.0",
 		"tape": "^4.8.0"
