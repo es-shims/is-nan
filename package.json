@@ -14,9 +14,7 @@
 		"posttest": "npm run --silent security",
 		"coverage": "covert test/*.js",
 		"coverage-quiet": "covert test/*.js --quiet",
-		"lint": "npm run jscs && npm run eslint",
-		"jscs": "jscs *.js test/*.js",
-		"eslint": "eslint *.js test/*.js",
+		"lint": "eslint .",
 		"security": "nsp check"
 	},
 	"repository": {
@@ -47,7 +45,6 @@
 		"covert": "^1.1.0",
 		"es5-shim": "^4.5.10",
 		"eslint": "^4.19.1",
-		"jscs": "^3.0.7",
 		"nsp": "^3.2.1",
 		"tape": "^4.9.0"
 	},
