@@ -11,11 +11,13 @@
 		"tests-only": "npm run --silent test:function && npm run --silent test:shimmed",
 		"test:function": "node test/index.js",
 		"test:shimmed": "node test/shimmed.js",
-		"posttest": "npm run --silent security",
+		"posttest": "npm run audit",
 		"coverage": "covert test/*.js",
 		"coverage-quiet": "covert test/*.js --quiet",
 		"lint": "eslint .",
-		"security": "nsp check"
+		"preaudit": "npm install --package-lock --package-lock-only",
+		"audit": "npm audit",
+		"postaudit": "rm package-lock.json"
 	},
 	"repository": {
 		"type": "git",
@@ -45,7 +47,6 @@
 		"covert": "^1.1.0",
 		"es5-shim": "^4.5.10",
 		"eslint": "^4.19.1",
-		"nsp": "^3.2.1",
 		"tape": "^4.9.0"
 	},
 	"testling": {
