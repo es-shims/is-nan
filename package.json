@@ -49,6 +49,9 @@
 		"eslint": "^5.12.1",
 		"tape": "^4.9.2"
 	},
+	"files": [
+		"*.js"
+	],
 	"testling": {
 		"files": "test.js",
 		"browsers": [
