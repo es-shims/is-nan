@@ -1,4 +1,4 @@
-#is-nan <sup>[![Version Badge][2]][1]</sup>
+# is-nan <sup>[![Version Badge][2]][1]</sup>
 
 [![Build Status][3]][4]
 [![dependency status][5]][6]
@@ -7,8 +7,6 @@
 [![Downloads][downloads-image]][downloads-url]
 
 [![npm badge][11]][1]
-
-[![browser support][9]][10]
 
 ES6-compliant shim for Number.isNaN - the global isNaN returns false positives.
 
@@ -40,15 +38,13 @@ assert.ok(Number.isNaN(NaN));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-nan
-[2]: http://versionbadg.es/ljharb/is-nan.svg
-[3]: https://travis-ci.org/ljharb/is-nan.svg
-[4]: https://travis-ci.org/ljharb/is-nan
-[5]: https://david-dm.org/ljharb/is-nan.svg
-[6]: https://david-dm.org/ljharb/is-nan
-[7]: https://david-dm.org/ljharb/is-nan/dev-status.svg
-[8]: https://david-dm.org/ljharb/is-nan#info=devDependencies
-[9]: https://ci.testling.com/ljharb/is-nan.png
-[10]: https://ci.testling.com/ljharb/is-nan
+[2]: http://versionbadg.es/es-shims/is-nan.svg
+[3]: https://travis-ci.org/es-shims/is-nan.svg
+[4]: https://travis-ci.org/es-shims/is-nan
+[5]: https://david-dm.org/es-shims/is-nan.svg
+[6]: https://david-dm.org/es-shims/is-nan
+[7]: https://david-dm.org/es-shims/is-nan/dev-status.svg
+[8]: https://david-dm.org/es-shims/is-nan#info=devDependencies
 [11]: https://nodei.co/npm/is-nan.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/is-nan.svg
 [license-url]: LICENSE
