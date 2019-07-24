@@ -47,6 +47,7 @@
 		"covert": "^1.1.1",
 		"es5-shim": "^4.5.12",
 		"eslint": "^5.12.1",
+		"functions-have-names": "^1.1.1",
 		"tape": "^4.9.2"
 	},
 	"testling": {
