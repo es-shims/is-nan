@@ -2,13 +2,4 @@
 	"root": true,
 
 	"extends": "@ljharb",
-
-	"overrides": [
-		{
-			"files": "test/**",
-			"rules": {
-				"no-magic-numbers": 0
-			},
-		},
-	],
 }
