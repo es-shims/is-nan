@@ -8,7 +8,7 @@
 
 [![npm badge][11]][1]
 
-ES6-compliant shim for Number.isNaN - the global isNaN returns false positives.
+ES2015-compliant shim for Number.isNaN - the global isNaN returns false positives.
 
 This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](http://www.ecma-international.org/ecma-262/6.0/#sec-number.isnan).
 
