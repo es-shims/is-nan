@@ -3,6 +3,9 @@
 	"version": "1.2.1",
 	"description": "ES6-compliant shim for Number.isNaN - the global isNaN returns false positives.",
 	"author": "Jordan Harband",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
