@@ -1,3 +1,7 @@
+1.3.2 / 2020-12-23
+=================
+  * [meta] do not publish github action workflow files
+
 1.3.1 / 2020-12-23
 =================
   * [Fix] avoid mutating `Number.isNaN` when present
