@@ -2,8 +2,7 @@
 
 require('es5-shim');
 
-var numberIsNaN = require('../');
-numberIsNaN.shim();
+require('../auto');
 
 var test = require('tape');
 var defineProperties = require('define-properties');
