@@ -1,5 +1,7 @@
 # is-nan <sup>[![Version Badge][2]][1]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -9,7 +11,7 @@
 
 ES2015-compliant shim for Number.isNaN - the global isNaN returns false positives.
 
-This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](http://www.ecma-international.org/ecma-262/6.0/#sec-number.isnan).
+This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](https://262.ecma-international.org/6.0/#sec-number.isnan).
 
 ## Example
 
@@ -47,3 +49,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/is-nan.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=is-nan
+[codecov-image]: https://codecov.io/gh/es-shims/is-nan/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/es-shims/is-nan/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/is-nan
+[actions-url]: https://github.com/es-shims/is-nan/actions
